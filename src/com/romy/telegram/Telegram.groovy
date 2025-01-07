@@ -5,7 +5,7 @@ class Telegram {
     String chatId
     String messageThreadId
 
-    TelegramHelper(String botToken, String chatId, String messageThreadId) {
+    Telegram(String botToken, String chatId, String messageThreadId) {
         this.botToken = botToken
         this.chatId = chatId
         this.messageThreadId = messageThreadId
